@@ -150,7 +150,7 @@ public class ClientGUI extends JFrame {
             }
             
             // Connect to server
-            socket = new Socket("localhost", 1234);
+            socket = new Socket("localhost", 12345);
             out = new ObjectOutputStream(socket.getOutputStream());
             in = new ObjectInputStream(socket.getInputStream());
             
